@@ -57,7 +57,7 @@ class SentdeBot(sc2.BotAI):
         self.train_data = []
         if self.use_model:
             print("USING MODEL!")
-            self.model = keras.models.load_model("BasicCNN-400-epochs-0.0001-LR-STAGE2")
+            self.model = keras.models.load_model("BasicCNN-2000-epochs-0.0001-LR-STAGE2")
 
 
     def on_end(self, game_result):
